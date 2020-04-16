@@ -1,6 +1,6 @@
 # COMP6841-login-leaks
-All three letter segments are part of the password and are guaranteed to be in order
-but not necessarily consecutive. There are no repeated characters in the password.
+**All three letter segments are part of the password and are guaranteed to be in order
+but not necessarily consecutive. There are no repeated characters in the password.**
 
 Solution: build a dictionary of all the letters and their relative position to one another.
 As we scan through the words, if a letter is behind another, its position is set to be
